@@ -15,7 +15,7 @@ tags:
 * 部署 k8s Dashboard
 * 部署 k8s 存储插件 rook
 
-### 安装 Docker
+## 安装 Docker
 
 按照 [Docker 部署文档](https://docs.docker.com/install/linux/docker-ce/centos/) 进行 Docker 的安装。
 
@@ -47,7 +47,7 @@ sudo yum install docker-ce docker-ce-cli containerd.io
 sudo systemctl start docker
 ```
 
-### 安装 kubeadm
+## 安装 kubeadm
 
 ```bash
 cat <<EOF > /etc/yum.repos.d/kubernetes.repo
@@ -69,7 +69,7 @@ yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
 systemctl enable --now kubelet
 ```
 
-### 部署 k8s master 节点
+## 部署 k8s master 节点
 
 在 master 节点上执行如下的命令
 
@@ -87,7 +87,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 以及 worker 节点加入集群时候锁需要的 Join 命令
 
-### 部署 k8s worker 节点
+## 部署 k8s worker 节点
 
 在 worker 节点上执行如下的命令
 
@@ -96,7 +96,7 @@ kubeadm join 10.0.0.4:6443 --token 6f46sk.du12egqecd9ix11z \
     --discovery-token-ca-cert-hash sha256:6366e915e608763e31cb9007c258ed3c366ea4ef3f6560b5cf88a730dbec1067
 ```
 
-### 部署网络插件 Calico
+## 部署网络插件 Calico
 
 ```bash
 kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml
@@ -123,7 +123,7 @@ kube-system   kube-proxy-qmjw6                          1/1     Running   0     
 kube-system   kube-scheduler-k8s-master                 1/1     Running   1          14m
 ```
 
-### 部署 Dashboard
+## 部署 Dashboard
 
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-beta6/aio/deploy/recommended.yaml
