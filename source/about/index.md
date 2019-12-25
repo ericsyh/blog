@@ -5,14 +5,14 @@ date: 2019-11-25 18:45:33
 comments: true
 ---
 
-工作至今已经换了三份工作，马上不得已又要换到新的公司。回想起毕业至今的四年半时间里，工作越来越觉得无力和迷茫，似乎从大学开始就一直很惧怕复杂技术，一直有意无意地去逃避，这种逃避地习惯也逐渐地渗透到工作和生活中。
+Larning Roadmap as below: 
 
-希望下个月换了新的工作后，能走出现在的困境，逐步踏上正轨。为了加强自己的技术功底，更重要的是能改掉逃避困难的恶习，排期对下面的技术技能进行排期学习，同时总结学习的经验在博客上：
-
-- [ ] Linux 基本操作
-- [ ] Kubernetes 基本功能
-- [ ] Golang 基本开发
-- [ ] Prometheus 
-- [ ] Etcd
-
-希望这次能成功地坚持下去，自己也能积累 Cloud Native 的技术能力。加油吧。
+- [x] Linux basic
+- [ ] Kubernetes basic
+- [ ] Golang basic
+- [ ] Linux advanced
+- [ ] Kubernetes advanced 
+- [ ] Golang advanced
+- [ ] CKA
+- [ ] PMP
+- [ ] AWS SA
