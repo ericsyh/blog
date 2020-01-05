@@ -6,7 +6,7 @@ tags:
 	- Binlog
 ---
 
-MySQL 开启 binlog 主从同步步骤。
+MySQL 开启 binlog 配置主从同步步骤整理。
 
 
 ### 示例服务器
@@ -20,7 +20,7 @@ Azure VM 上创建两台 centos 7.5 服务器分别作为 MySQL master 和 My SQ
 
 #### 添加Mysql5.7仓库
 
-```bash
+```
 sudo rpm -ivh https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
 ```
 
