@@ -9,15 +9,15 @@ tags:
 MySQL 开启 binlog 配置主从同步步骤整理。
 
 
-### 示例服务器
+## 示例服务器准备
 
 Azure VM 上创建两台 centos 7.5 服务器分别作为 MySQL master 和 My SQL slave：
 
 * master: 13.75.108.150
 * slave: 13.75.109.41
 
+## 操作步骤
 ### 安装 MySQL 
-
 #### 添加 MySQL 5.7仓库
 
 ```

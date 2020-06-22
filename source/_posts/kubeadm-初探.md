@@ -8,7 +8,7 @@ tags:
 
 使用 kubeadm 安装 k8s 集群步骤整理。
 
-### 示例服务器
+## 示例服务器准备
 
 Azure VM 上创建三台 centos 7.5 服务器分别作为 k8s master 和 k8s worker：
 
@@ -18,6 +18,7 @@ worker1: 207.46.151.202
 worker2: 168.63.140.91
 ```
 
+## 操作步骤
 ### 安装 Docker
 
 #### 安装相关依赖
