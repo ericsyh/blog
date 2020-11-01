@@ -6,7 +6,6 @@ tags:
 	- Docker
 ---
 
-
 ## 背景
 之前按照 [Docker安装Confluence](https://www.jianshu.com/p/8e81caca5f2a) 部署了 confluence server。前期为了方便直接使用了 confluence 内嵌的 H2 数据库。后续小伙伴陆陆续续开始使用起来后，为了稳定还是按照官方要求使用外部数据库，并将现有的数据进行迁移。
 
