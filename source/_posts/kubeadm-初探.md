@@ -125,8 +125,8 @@ kubeadm join 10.0.1.4:6443 --token mv7ql6.zvcdldux0io1kspb \
 
 ```
 mkdir -p $HOME/.kube
-  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
 ##### 部署网络插件
